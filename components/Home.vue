@@ -1,3 +1,0 @@
-<template>
-  <HomeComponentsHero></HomeComponentsHero>
-</template>

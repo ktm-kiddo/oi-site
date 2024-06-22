@@ -12,7 +12,7 @@
               <img
                 alt="Your Company"
                 class="h-8 w-auto"
-                src="/public/logos/logo_small_blue.png"
+                src="/public/logo_small_blue.png"
               />
             </a>
             <button
@@ -116,9 +116,9 @@
               <h1
                 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
               >
-                Data to enrich your online business
+                The Open Institute for Social Science
               </h1>
-              <p class="mt-6 text-lg leading-8 text-gray-600">
+              <p class="mt-6 text-lg leading-8 text-oi-blue">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                 fugiat aliqua.

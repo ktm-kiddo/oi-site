@@ -8,11 +8,11 @@
             aria-label="Global"
           >
             <a href="#" class="-m-1.5 p-1.5">
-              <span class="sr-only">The Open Institute for Social Science</span>
+              <span class="sr-only">Your Company</span>
               <img
                 alt="Your Company"
                 class="h-8 w-auto"
-                src="/public/logo_small_blue.png"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
               />
             </a>
             <button
@@ -116,9 +116,9 @@
               <h1
                 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
               >
-                The Open Institute for Social Science
+                Data to enrich your online business
               </h1>
-              <p class="mt-6 text-lg leading-8 text-oi-blue">
+              <p class="mt-6 text-lg leading-8 text-gray-600">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                 fugiat aliqua.

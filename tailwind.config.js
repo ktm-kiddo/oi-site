@@ -3,12 +3,20 @@ export default {
   content: [],
   theme: {
     colors: {
-      'oi-blue': '#26497F',
+      'oi-blue': {
+        DEFAULT: '#26497F',
+        dark: '##1C3A69',
+      },
     },
     extend: {},
   },
-  plugins: [
-    '@tailwindcss/forms'
-  ],
 }
 
+
+module.exports = {
+  // ...
+  plugins: [
+    // ...
+    require('@tailwindcss/forms'),
+  ],
+}

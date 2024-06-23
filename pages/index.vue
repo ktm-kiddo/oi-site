@@ -5,6 +5,8 @@ const route = useRoute();
 <template>
   <div>
     <HomeComponentsHero></HomeComponentsHero>
+    <HomeComponentsFeature></HomeComponentsFeature>
+    <HomeComponentsFooter></HomeComponentsFooter>
 
     <!-- <h1 class="text-oi-blue">Nuxt Routing set up successfully!</h1>
     <p>Current route: {{ route.path }}</p>

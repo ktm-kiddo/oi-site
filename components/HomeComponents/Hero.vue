@@ -107,7 +107,7 @@
                   Anim aute id magna aliqua ad ad non deserunt sunt.
                   <a
                     href="#"
-                    class="whitespace-nowrap font-semibold text-indigo-600"
+                    class="whitespace-nowrap font-semibold text-oi-blue"
                     ><span class="absolute inset-0" aria-hidden="true" />Read
                     more <span aria-hidden="true">&rarr;</span></a
                   >

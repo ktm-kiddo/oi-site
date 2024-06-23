@@ -12,7 +12,7 @@
               <img
                 alt="Your Company"
                 class="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="/public/logos/logo_small_blue.png"
               />
             </a>
             <button
@@ -116,17 +116,17 @@
               <h1
                 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
               >
-                Data to enrich your online business
+                The Open Institute for Social Science
               </h1>
               <p class="mt-6 text-lg leading-8 text-gray-600">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+                Challenge yourself. Build the skills to empower your passion.
+                Our project-based courses offer world-class training in a
+                variety of social scientific techniques.
               </p>
               <div class="mt-10 flex items-center gap-x-6">
                 <a
                   href="#"
-                  class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  class="rounded-md bg-oi-blue-dark px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-oi-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >Get started</a
                 >
                 <a
@@ -142,7 +142,7 @@
       <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           class="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-          src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
+          src="/public/kirtipur.jpg"
           alt=""
         />
       </div>

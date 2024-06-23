@@ -1,17 +1,22 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [],
-  theme: {
-    colors: {
-      'oi-blue': {
-        DEFAULT: '#26497F',
-        dark: '##1C3A69',
+  /** @type {import('tailwindcss').Config} */
+
+  module.exports =  {
+    content: ['./pages/*.{html,js, vue}',
+      './components/*.{html,js, vue}',
+      './components/HomeComponents/*.{html,js, vue}'
+    ],
+    theme: {
+      extend: {
+        colors: {
+          'oi-blue': {
+        DEFAULT: '#174A83',
+        dark: '#0F3B6D',
+      },
+        }
       },
     },
-    extend: {},
-  },
-  plugins: [
-    // ...
-    require('@tailwindcss/forms'),
-  ],
-}
+    
+    plugins: [
+      '@tailwindcss/forms'
+    ],
+  }

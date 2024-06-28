@@ -6,6 +6,8 @@ const route = useRoute();
   <div>
     <HomeComponentsHero></HomeComponentsHero>
     <HomeComponentsFeature></HomeComponentsFeature>
+    <HomeComponentsHeader></HomeComponentsHeader>
+    <HomeComponentsFeatureTwo></HomeComponentsFeatureTwo>
     <HomeComponentsFooter></HomeComponentsFooter>
 
     <!-- <h1 class="text-oi-blue">Nuxt Routing set up successfully!</h1>

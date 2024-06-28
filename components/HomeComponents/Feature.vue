@@ -6,7 +6,7 @@
       >
         <div class="px-6 lg:px-0 lg:pr-4 lg:pt-4">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
-            <h2 class="text-base font-semibold leading-7 text-indigo-600">
+            <h2 class="text-base font-semibold leading-7 text-oi-blue">
               Deploy faster
             </h2>
             <p
@@ -30,7 +30,7 @@
                 <dt class="inline font-semibold text-gray-900">
                   <component
                     :is="feature.icon"
-                    class="absolute left-1 top-1 h-5 w-5 text-indigo-600"
+                    class="absolute left-1 top-1 h-5 w-5 text-oi-blue"
                     aria-hidden="true"
                   />
                   {{ feature.name }}

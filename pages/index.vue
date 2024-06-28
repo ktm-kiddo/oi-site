@@ -6,7 +6,8 @@ const route = useRoute();
   <div>
     <HomeComponentsHero></HomeComponentsHero>
     <HomeComponentsFeature></HomeComponentsFeature>
-    <HomeComponentsHeader></HomeComponentsHeader>
+    <HomeComponentsBlog></HomeComponentsBlog>
+    <HomeComponentsFeatureThree></HomeComponentsFeatureThree>
     <HomeComponentsFeatureTwo></HomeComponentsFeatureTwo>
     <HomeComponentsFooter></HomeComponentsFooter>
 

@@ -5,8 +5,4 @@ export default defineNuxtConfig({
     },
     devtools: { enabled: true },
     modules: ["@nuxtjs/tailwindcss", "nuxt-headlessui"],
-    ssr: true,
-    nitro: {
-        static: true,
-    }
 });

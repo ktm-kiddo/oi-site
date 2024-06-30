@@ -3,7 +3,8 @@
   module.exports =  {
     content: ['./pages/*.{html,js, vue}',
       './components/*.{html,js, vue}',
-      './components/HomeComponents/*.{html,js, vue}'
+      './components/HomeComponents/*.{html,js, vue}',
+      './pages/*.{html, js, vue}'
     ],
     theme: {
       extend: {
@@ -20,3 +21,5 @@
       '@tailwindcss/forms'
     ],
   }
+
+ 

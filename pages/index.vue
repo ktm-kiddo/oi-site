@@ -4,6 +4,7 @@ const route = useRoute();
 
 <template>
   <div>
+    <Test></Test>
     <HomeComponentsHero></HomeComponentsHero>
     <HomeComponentsFeature></HomeComponentsFeature>
     <HomeComponentsBlog></HomeComponentsBlog>

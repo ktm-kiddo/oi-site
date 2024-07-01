@@ -93,7 +93,7 @@
     </div>
 
     <!-- dropdown info -->
-    <dl class="mt-10 space-y-6 divide-y divide-gray-900/10 px-10">
+    <dl class="mt-10 space-y-6 divide-y divide-gray-900/10 px-10 pb-10">
       <Disclosure
         as="div"
         v-for="box in infobox"
@@ -119,10 +119,7 @@
         </DisclosurePanel>
       </Disclosure>
     </dl>
-
-    <div>
-      
-    </div>
+    <div class="px-8"></div>
   </div>
 </template>
 

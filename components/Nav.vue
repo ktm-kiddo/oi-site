@@ -1,6 +1,8 @@
 <template>
   <Disclosure as="nav" class="bg-white shadow" v-slot="{ open }">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div
+      class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 bg-white fixed top-0 w-full shadow-md"
+    >
       <div class="flex h-16 justify-between">
         <div class="flex">
           <div class="flex flex-shrink-0 items-center">

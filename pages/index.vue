@@ -9,7 +9,7 @@ const route = useRoute();
     <HomeComponentsBlog></HomeComponentsBlog>
     <HomeComponentsFeatureThree></HomeComponentsFeatureThree>
     <HomeComponentsFeatureTwo></HomeComponentsFeatureTwo>
-    <HomeComponentsFooter></HomeComponentsFooter>
+    <Footer></Footer>
 
     <!-- <h1 class="text-oi-blue">Nuxt Routing set up successfully!</h1>
     <p>Current route: {{ route.path }}</p>

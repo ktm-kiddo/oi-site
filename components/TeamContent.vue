@@ -30,6 +30,26 @@
             <ul role="list" class="mt-6 flex gap-x-6">
               <li>
                 <a
+                  href="mailto:{{person.email}}"
+                  class="text-gray-400 hover:text-gray-500"
+                >
+                  <span class="sr-only">Email</span>
+                  <svg
+                    class="h-5 w-5"
+                    aria-hidden="true"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 12.713l11.985-8.713H.015L12 12.713zm0 1.405L.015 5.279V20h23.97V5.279L12 14.118z"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a
                   :href="person.xUrl"
                   class="text-gray-400 hover:text-gray-500"
                 >
@@ -71,6 +91,38 @@
         </li>
       </ul>
     </div>
+
+    <!-- dropdown info -->
+    <dl class="mt-10 space-y-6 divide-y divide-gray-900/10 px-10">
+      <Disclosure
+        as="div"
+        v-for="box in infobox"
+        :key="box.question"
+        class="pt-6"
+        v-slot="{ open }"
+      >
+        <dt>
+          <DisclosureButton
+            class="flex w-full items-start justify-between text-left text-gray-900"
+          >
+            <span class="text-base font-semibold leading-7">{{
+              box.title
+            }}</span>
+            <span class="ml-6 flex h-7 items-center">
+              <PlusSmallIcon v-if="!open" class="h-6 w-6" aria-hidden="true" />
+              <MinusSmallIcon v-else class="h-6 w-6" aria-hidden="true" />
+            </span>
+          </DisclosureButton>
+        </dt>
+        <DisclosurePanel as="dd" class="mt-2 pr-12">
+          <p class="text-base leading-7 text-gray-600">{{ box.content }}</p>
+        </DisclosurePanel>
+      </Disclosure>
+    </dl>
+
+    <div>
+      
+    </div>
   </div>
 </template>
 
@@ -86,5 +138,25 @@ const people = [
     linkedinUrl: "#",
   },
   // More people...
+];
+
+import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
+import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/vue/24/outline";
+
+const infobox = [
+  {
+    title: "Academic background:",
+    content: "What academic background?",
+  },
+  {
+    title: "Publications:",
+    content:
+      "Eating and Juicing: Making Delicious Worlds in Fruit-land Kathmandu",
+  },
+  {
+    title: "CV and contact information:",
+    content: "DONT CONTACT ME. I WILL PUT YOU IN SPAM",
+  },
+  // More questions...
 ];
 </script>

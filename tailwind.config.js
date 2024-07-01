@@ -1,5 +1,4 @@
   /** @type {import('tailwindcss').Config} */
-  const defaultTheme = require('tailwindcss/defaultTheme')
 
   module.exports =  {
     content: ['./pages/*.{html,js, vue}',
@@ -14,9 +13,6 @@
         DEFAULT: '#174A83',
         dark: '#0F3B6D',
           },
-        },
-        fontFamily: {
-          sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         },
   
       },

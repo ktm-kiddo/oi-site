@@ -17,12 +17,28 @@ const route = useRoute();
     <a href="https://nuxt.com/docs/getting-started/routing" target="_blank"
       >Learn more about Nuxt Routing</a
     > -->
-    <form netlify>
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" value="John" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
-      <input type="submit" value="Submit" />
+    <form name="contact" method="POST" netlify>
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label
+          >Your Role:
+          <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label
+        >
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
     </form>
   </div>
 </template>

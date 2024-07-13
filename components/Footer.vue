@@ -92,7 +92,7 @@
             The latest news, articles, and resources, sent to your inbox weekly.
           </p>
         </div>
-        <form class="mt-6 sm:flex sm:max-w-md lg:mt-0">
+        <form class="mt-6 sm:flex sm:max-w-md lg:mt-0" netlify>
           <label for="email-address" class="sr-only">Email address</label>
           <input
             type="email"

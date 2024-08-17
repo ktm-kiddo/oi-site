@@ -19,7 +19,7 @@
       <label>Message: <textarea name="message"></textarea></label>
     </p>
     <p>
-      <button type="submit" @click="handleSubmit">Send</button>
+      <button @click="handleSubmit">Send</button>
     </p>
   </form>
 </template>

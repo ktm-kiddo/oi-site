@@ -1,0 +1,3 @@
+<template>
+  <Footer></Footer>
+</template>

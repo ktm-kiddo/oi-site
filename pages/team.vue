@@ -126,6 +126,8 @@
 </template>
 
 <script setup>
+
+
 const people = [
   {
     name: "Jerry Orange-Face",
